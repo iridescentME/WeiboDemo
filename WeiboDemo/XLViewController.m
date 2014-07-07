@@ -26,4 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)sayButtonClick:(id)sender {
+    [self.wordLabel setTextColor:[UIColor blueColor]];
+    [self.wordLabel setText:@"Hello, World!"];
+}
 @end

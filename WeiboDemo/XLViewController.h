@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface XLViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *wordLabel;
 
 @end
